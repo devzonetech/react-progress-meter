@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import "!style!css!./css/bar.styles.css";
 import "!style!css!./css/styles.css";
 
 export default class ReactProgressMeter extends React.Component {
