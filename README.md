@@ -8,32 +8,34 @@ React Js UI component 3D progress meter, progress indicator, progress bar. Light
   `npm install react-progress-meter --save`
 
 ## Usage
-
 You must update the value of "currentProgress" prop to show the progress of your process.
 
-    import ReactProgressMeter from 'react-progress-meter'
- 
-    export default class MyComponent extends React.Component {
-        
-        processCalculations () {
-            this.setState({
-                myProgress: 25 
-            }); 
-        }
-        
-        render() {
-            return (
-            <div>
-                ...
-                <ReactProgressMeter 
-                    currentProgress={this.state.myProgress} 
-                    showPercent={true}
-                    show={true}
-                    color="cyan" />
-            </div>
-            )
-        }
+```jsx
+import ReactProgressMeter from 'react-progress-meter'
+
+export default class MyComponent extends React.Component {
+    
+    processCalculations () {
+        this.setState({
+            myProgress: 25 
+        }); 
     }
+    
+    render() {
+        return (
+        <div>
+            ...
+            <ReactProgressMeter 
+                currentProgress={this.state.myProgress} 
+                showPercent={true}
+                show={true}
+                color="cyan" />
+        </div>
+        )
+    }
+}
+```
+
 
 Demo: [https://www.devzonetech.com/demo/react-progress-meter/](https://www.devzonetech.com/demo/react-progress-meter/)
 
