@@ -44,7 +44,7 @@ Demo: [https://www.devzonetech.com/demo/react-progress-meter/](https://www.devzo
 | currentProgress | 75      | Numbers: [0..100]                                   | Via this prop you can show the current progress of your process in the indicator as colored bar. |
 | show            | true    | Boolean true or false                                      | Show or hide the component.                                                                      |
 | showPercent     | false   | Boolean: true or false                                      | Show percent of the current progress as text in the progress meter.                              |
-| color           | cyan    | String: "red", "yellow", "lime",  "cyan", "white", "navy"  | Color of your progress bar. [https://www.devzonetech.com/demo/react-progress-meter/](examples)    
+| color           | cyan    | String: "red", "yellow", "lime",  "cyan", "white", "navy"  | Color of your progress bar.   
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
