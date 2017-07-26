@@ -36,6 +36,10 @@
   },
   "homepage": "https://github.com/devzonetech/react-progress-meter#readme",
   "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.0.2"
+  },
+  "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
     "babel-plugin-array-includes": "^2.0.3",
@@ -45,14 +49,10 @@
     "css-loader": "^0.28.4",
     "less": "^2.7.2",
     "node-sass": "^4.5.3",
-    "prop-types": "^15.5.10",
-    "react": "^15.0.2",
     "react-dom": "^15.0.2",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
-    "webpack": "^3.4.1"
-  },
-  "devDependencies": {
+    "webpack": "^3.4.1",
     "less-loader": "^2.2.3"
   }
 }
