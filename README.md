@@ -41,7 +41,7 @@ Demo: [https://www.devzonetech.com/demo/react-progress-meter/](https://www.devzo
 
 ## Component Props 
 
-| *Prop name*       | *Default* | *Values*                                   | Description                                                                                      |
+| *Prop*       | *Default* | *Values*                                   | Description                                                                                      |
 |-----------------|---------|----------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | currentProgress | 75      | Numbers: [0..100]                                   | Via this prop you can show the current progress of your process in the indicator as colored bar. |
 | show            | true    | Boolean true or false                                      | Show or hide the component.                                                                      |
