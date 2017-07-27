@@ -5,30 +5,66 @@ import ReactDOM from 'react-dom';
 
 var ReactProgressMeter = require("../dist/index.js");
 
+class ReactProgressMeterExamples extends React.Component {
+    
+    constructor() {
+        super();
+        this.updateProgress = this.updateProgress.bind(this);
+        
+        this.state = {
+            progress: 0,
+        }
+    }
+    
+    componentDidMount() {
+        this.updateProgress();
+    }
+    
+    updateProgress() {
+        var _self = this;
+        setInterval(function () {
+            var newProgress = 0;
+            if (_self.state.progress < 100) {
+                newProgress = _self.state.progress + 1;
+            }
+            _self.setState({progress: newProgress});
+        }, 200);
+    }
+    
+    render() {
+        return (
+            <div>
+                <div>
+                    <ReactProgressMeter currentProgress={15} color="red" />
+                </div>
+                <div>
+                    <ReactProgressMeter currentProgress={30} showPercent={true} color="yellow" />
+                </div>
+                <div>
+                    <ReactProgressMeter currentProgress={45} color="lime" />
+                </div>
+                <div>
+                    <ReactProgressMeter currentProgress={this.state.progress} showPercent={true} color="cyan" />
+                </div>
+                <div>
+                    <ReactProgressMeter currentProgress={75} color="white" />
+                </div>
+                <div>
+                    <ReactProgressMeter currentProgress={85} showPercent={true} color="navy" />
+                </div>
+            </div>);    
+    }
+}
+
 ReactDOM.render(
         <div id="wrapper">
             <h1>ReactProgressMeter ReactJs component demo</h1>
             <div>
                 <p>React Js UI component 3D progress meter, progress indicator, progress bar. Light colored component, which indicates progress of some web process in your web site.</p>
             </div>
-            <div>
-                <ReactProgressMeter currentProgress={15} color="red" />
-            </div>
-            <div>
-                <ReactProgressMeter currentProgress={30} showPercent={true} color="yellow" />
-            </div>
-            <div>
-                <ReactProgressMeter currentProgress={45} color="lime" />
-            </div>
-            <div>
-                <ReactProgressMeter currentProgress={60} showPercent={true} color="cyan" />
-            </div>
-            <div>
-                <ReactProgressMeter currentProgress={75} color="white" />
-            </div>
-            <div>
-                <ReactProgressMeter currentProgress={85} showPercent={true} color="navy" />
-            </div>
+            
+            <ReactProgressMeterExamples />
+            
             <div className="topSpace">
                 <a href="https://www.npmjs.com/package/react-progress-meter" className="rightSpace">
                     <img alt="Github Logotype" src="https://docs.npmjs.com/images/npm.svg" width="200" />
