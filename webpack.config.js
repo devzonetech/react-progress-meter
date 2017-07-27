@@ -44,7 +44,7 @@ var config = {
                 test: path.join(__dirname, '.'),
                 exclude: /(node_modules)/,
                 loader: 'babel-loader',
-                query: { presets:['es2015', 'react' ], plugins:["add-module-exports"]}
+                query: { presets:['es2015', 'stage-0', 'react' ], plugins:["add-module-exports"]}
             },
         ],
   },
@@ -61,10 +61,7 @@ var config = {
             sourceMap: false,
             // Don't beautify output (enable for neater output)
             beautify: false,
-        }),
-        new webpack.LoaderOptionsPlugin({
-          debug: true
-        }),
+        })
     ]
 };
 

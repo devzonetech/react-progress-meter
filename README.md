@@ -3,22 +3,28 @@ ReactJS progress meter/indicator
 
 React Js UI component 3D progress meter, progress indicator, progress bar. Light colored component, which indicates progress of some web process in your web site.
 
+## Demo
+[https://www.devzonetech.com/demo/react-progress-meter/](https://www.devzonetech.com/demo/react-progress-meter/)
+
 ## Installation
 
   `npm install react-progress-meter --save`
 
 ## Usage
-You must update the value of "currentProgress" prop to show the progress of your process.
+You must update periodically the value of "currentProgress" prop to show the progress of your process.
+Width of ReactProgressMeter component (width 100%) in your application will be the width of the wrapper element.
 
 ```jsx
 import ReactProgressMeter from 'react-progress-meter'
 
 export default class MyComponent extends React.Component {
     
-    processCalculations () {
-        this.setState({
-            myProgress: 25 
-        }); 
+    constructor() {
+        super();
+
+        this.state = {
+            myProgress: 25,
+        }
     }
     
     render() {
@@ -36,15 +42,12 @@ export default class MyComponent extends React.Component {
 }
 ```
 
-
-Demo: [https://www.devzonetech.com/demo/react-progress-meter/](https://www.devzonetech.com/demo/react-progress-meter/)
-
 ## Component Props 
 
 | *Prop*       | *Default* | *Values*                                   | Description                                                                                      |
 |-----------------|---------|----------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | currentProgress | 75      | Numbers: [0..100]                                   | Via this prop you can show the current progress of your process in the indicator as colored bar. |
-| show            | true    | Boolean true or false                                      | Show or hide the component.                                                                      |
+| show            | true    | Boolean: true or false                                      | Show or hide the component.                                                                      |
 | showPercent     | false   | Boolean: true or false                                      | Show percent of the current progress as text in the progress meter.                              |
 | color           | cyan    | String: "red", "yellow", "lime",  "cyan", "white", "navy"  | Color of your progress bar.   
 
