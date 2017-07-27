@@ -14,16 +14,22 @@ var config = {
   devtool:'sourcemaps',
   cache: true,
   entry: {
-      index: APP_DIR + '/index.js',
+      ReactProgressMeter: APP_DIR + '/ReactProgressMeter.js',
       appExample: APP_DIR + '/appExample.js',
   },
   output: {
     path: BUILD_DIR,
-        filename: '[name].js',
+    filename: '[name].js',
+    library: 'shared-components',
+    libraryTarget: 'umd'
   },
   resolve: {
     extensions: ['.js', '.jsx']
   },
+//   externals: {
+//     'react': 'react',
+//     'react-dom': 'react-dom'
+//   },
   module : {
      loaders: [
             {
@@ -38,7 +44,7 @@ var config = {
                 test: path.join(__dirname, '.'),
                 exclude: /(node_modules)/,
                 loader: 'babel-loader',
-                query: { presets:['es2015', 'stage-0', 'react' ], plugins:[]}
+                query: { presets:['es2015', 'react' ], plugins:["add-module-exports"]}
             },
         ],
   },

@@ -2,7 +2,8 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ReactProgressMeter from './ReactProgressMeter';
+
+var ReactProgressMeter = require("../dist/index.js");
 
 ReactDOM.render(
         <div id="wrapper">
