@@ -28,7 +28,7 @@ class ReactProgressMeterExamples extends React.Component {
                 newProgress = _self.state.progress + 1;
             }
             _self.setState({progress: newProgress});
-        }, 200);
+        }, 100);
     }
     
     render() {
