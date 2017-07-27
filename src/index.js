@@ -11,22 +11,22 @@ ReactDOM.render(
                 <p>React Js UI component 3D progress meter, progress indicator, progress bar. Light colored component, which indicates progress of some web process in your web site.</p>
             </div>
             <div>
-                <ReactProgressMeter currentProgress="15" color="red" />
+                <ReactProgressMeter currentProgress={15} color="red" />
             </div>
             <div>
-                <ReactProgressMeter currentProgress="30" showPercent={true} color="yellow" />
+                <ReactProgressMeter currentProgress={30} showPercent={true} color="yellow" />
             </div>
             <div>
-                <ReactProgressMeter currentProgress="45" color="lime" />
+                <ReactProgressMeter currentProgress={45} color="lime" />
             </div>
             <div>
-                <ReactProgressMeter currentProgress="60" showPercent={true} color="cyan" />
+                <ReactProgressMeter currentProgress={60} showPercent={true} color="cyan" />
             </div>
             <div>
-                <ReactProgressMeter currentProgress="75" color="white" />
+                <ReactProgressMeter currentProgress={75} color="white" />
             </div>
             <div>
-                <ReactProgressMeter currentProgress="85" showPercent={true} color="navy" />
+                <ReactProgressMeter currentProgress={85} showPercent={true} color="navy" />
             </div>
             <div className="topSpace">
                 <a href="https://www.npmjs.com/package/react-progress-meter" className="rightSpace">
