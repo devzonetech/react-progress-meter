@@ -12,10 +12,12 @@ class ReactProgressMeter extends React.Component {
     render() {
         
         var progressClasses = "bar bar-" + this.props.currentProgress + " " + this.props.color;
-        
+        var styleProps = {
+            width: this.props.width,
+        }
         
         return (
-            <div className={this.props.show ? "chart showProgress" : "chart hideProgress"}>
+            <div style={styleProps} className={this.props.show ? "chart showProgress" : "chart hideProgress"}>
                 <div className={progressClasses}>
                     <div className="face top">
                         <div className="growing-bar"></div>
@@ -41,13 +43,15 @@ ReactProgressMeter.propTypes = {
     show: PropTypes.bool,
     showPercent: PropTypes.bool,
     color: PropTypes.string,
+    width: PropTypes.string,
 };
 
 ReactProgressMeter.defaultProps = {
     currentProgress: 75,
     show: true,
     showPercent: false,
-    color: "cyan"
+    color: "cyan",
+    width: "100%",
 };
 
 export default ReactProgressMeter;

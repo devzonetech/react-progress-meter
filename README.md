@@ -12,7 +12,6 @@ React Js UI component 3D progress meter, progress indicator, progress bar. Light
 
 ## Usage
 You must update periodically the value of "currentProgress" prop to show the progress of your process.
-Width of ReactProgressMeter component (width 100%) in your application will be the width of the wrapper element.
 
 ```jsx
 import ReactProgressMeter from 'react-progress-meter'
@@ -50,6 +49,7 @@ export default class MyComponent extends React.Component {
 | show            | true    | Boolean: true or false                                      | Show or hide the component.                                                                      |
 | showPercent     | false   | Boolean: true or false                                      | Show percent of the current progress as text in the progress meter.                              |
 | color           | cyan    | String: "red", "yellow", "lime",  "cyan", "white", "navy"  | Color of your progress bar.   
+| width           | 100%    | String: percent or px. Examples: "100%" or "400px"  | Width of progress meter component.   
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
