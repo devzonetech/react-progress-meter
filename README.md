@@ -1,7 +1,7 @@
 ReactJS progress meter/indicator
 =========
 
-React Js UI component 3D progress meter, progress indicator, progress bar. Light colored component, which indicates progress of some web process in your web site.
+React Js UI component 3D progress meter, progress indicator, progress bar. Light colored component, which indicates progress of some web process in your react application.
 
 ## Demo
 [https://www.devzonetech.com/demo/react-progress-meter/](https://www.devzonetech.com/demo/react-progress-meter/)
@@ -34,7 +34,9 @@ export default class MyComponent extends React.Component {
                 currentProgress={this.state.myProgress} 
                 showPercent={true}
                 show={true}
-                color="cyan" />
+                color="cyan" 
+		width="80%"
+	    />
         </div>
         )
     }
