@@ -1,5 +1,6 @@
 /*
- * This webpack config produces two js files: one is npm module file ReactProgressMeter.js, the other one is example app js file index.js in dist directory.
+ * This webpack config produces two js files: one is npm module file ReactProgressMeter.js, 
+ * the other one is example app js file appExample.js in dist directory.
  * Devzone Tech Ltd.
  * https://www.devzonetech.com/
  */
