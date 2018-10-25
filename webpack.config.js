@@ -45,7 +45,7 @@ var config = {
                 test: path.join(__dirname, '.'),
                 exclude: /(node_modules)/,
                 loader: 'babel-loader',
-                query: { presets:['es2015', 'stage-0', 'react' ], plugins:["add-module-exports"]}
+                query: { presets:['env', 'stage-0', 'react' ], plugins:["add-module-exports"]}
             },
         ],
   },
