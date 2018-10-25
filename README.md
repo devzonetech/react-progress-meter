@@ -6,6 +6,8 @@ React Js UI component 3D progress meter, progress indicator, progress bar. Light
 ## Demo
 [https://www.devzonetech.com/demo/react-progress-meter/](https://www.devzonetech.com/demo/react-progress-meter/)
 
+![Demo image of progress meter/indicator](https://raw.githubusercontent.com/devzonetech/react-progress-meter/master/css/img/react-progress-meter.png)
+
 ## Installation
 
   `npm install react-progress-meter --save`
