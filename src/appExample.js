@@ -73,10 +73,10 @@ ReactDOM.render(
             
             <div className="topSpace">
                 <a href="https://www.npmjs.com/package/react-progress-meter" className="rightSpace">
-                    <img alt="Github Logotype" src="https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png" width="200" />
+                    <img alt="Npmjs Logo" src="https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png" width="200" />
                 </a>
                 <a href="https://github.com/devzonetech/react-progress-meter">
-                    <img alt="Github Logotype" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png" width="200" />
+                    <img alt="Github Logo" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png" width="200" />
                 </a> 
             </div>
             <div className="topSpace">
