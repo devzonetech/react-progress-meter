@@ -1,6 +1,6 @@
 {
   "name": "react-progress-meter",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "React Js UI component 3D progress meter, progress indicator, progress bar. Light colored component, which indicates progress of some web process in your web site.",
   "main": "dist",
   "directories": {
@@ -37,7 +37,7 @@
   "homepage": "https://github.com/devzonetech/react-progress-meter#readme",
   "dependencies": {
     "prop-types": "^15.5.10",
-    "react": "^16.6.0"
+    "react": "^16.6.3"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
@@ -46,11 +46,11 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "css-loader": "^1.0.0",
+    "css-loader": "^1.0.1",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
-    "node-sass": "^4.7.2",
-    "react-dom": "^16.6.0",
+    "node-sass": "^4.10.0",
+    "react-dom": "^16.6.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^3.10.0"

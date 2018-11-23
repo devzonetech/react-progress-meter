@@ -3,6 +3,11 @@
  * the other one is example app js file appExample.js in dist directory.
  * Devzone Tech Ltd.
  * https://www.devzonetech.com/
+ * 
+ * Howto rebuild:
+ * npm install
+ * node_modules/webpack/bin/webpack.js --config webpack.config.js
+ * 
  */
 
 var webpack = require('webpack');
