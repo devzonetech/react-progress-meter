@@ -76,7 +76,7 @@ ReactDOM.render(
                     <img alt="Npmjs Logo" src="https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png" width="200" />
                 </a>
                 <a href="https://github.com/devzonetech/react-progress-meter">
-                    <img alt="Github Logo" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png" width="200" />
+                    <img alt="Github Logo" src="https://www.devzonetech.com/demo/react-show-more-text/build/img/github_logo.png" width="200" />
                 </a> 
             </div>
             <div className="topSpace">
