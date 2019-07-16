@@ -1,6 +1,6 @@
 {
   "name": "react-progress-meter",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "React Js UI component 3D progress meter, progress indicator, progress bar. Light colored component, which indicates progress of some web process in your web site.",
   "main": "dist",
   "directories": {
