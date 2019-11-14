@@ -20,6 +20,7 @@ var config = {
   devtool:'sourcemaps',
   cache: true,
   entry: {
+      ReactProgressMeter: APP_DIR + '/ReactProgressMeter.js',
       appExample: APP_DIR + '/appExample.js',
   },
   output: {

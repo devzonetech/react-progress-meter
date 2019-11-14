@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require("../src/ReactProgressMeter");
+module.exports = require("./ReactProgressMeter");
