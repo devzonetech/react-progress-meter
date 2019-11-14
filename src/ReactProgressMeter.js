@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import "!style-loader!css-loader!../css/styles.css";
-import "!style-loader!css-loader!../css/bar.styles.css";
+import "!style-loader!css-loader!./css/styles.css";
+import "!style-loader!css-loader!./css/bar.styles.css";
 
 class ReactProgressMeter extends React.Component {
     

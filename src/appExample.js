@@ -3,7 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-var ReactProgressMeter = require("../dist/index.js");
+var ReactProgressMeter = require('../dist/index.js');
 
 class ReactProgressMeterExamples extends React.Component {
     
