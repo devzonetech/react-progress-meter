@@ -1,12 +1,17 @@
-ReactJS progress meter/indicator
-=========
+# ReactJS progress meter/indicator
+[![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-image]][npm-url]
 
-React Js UI component 3D progress meter, progress indicator, progress bar. Light colored component, which indicates progress of some web process in your react application.
+[npm-url]: https://npmjs.org/package/react-progress-meter
+[downloads-image]: http://img.shields.io/npm/dm/react-progress-meter.svg
+[npm-image]: https://badge.fury.io/js/react-progress-meter.svg
+
+React Js UI component 3D progress meter, progress indicator, progress bar. Light colored component, which indicates progress of some web process in your react application. Works with React 16.x.x versions.
 
 ## Demo
 [https://www.devzonetech.com/demo/react-progress-meter/](https://www.devzonetech.com/demo/react-progress-meter/)
 
-![Demo image of progress meter/indicator](https://raw.githubusercontent.com/devzonetech/react-progress-meter/master/css/img/react-progress-meter.png)
+![Demo image of progress meter/indicator](https://raw.githubusercontent.com/devzonetech/react-progress-meter/master/src/img/react-progress-meter.png)
 
 ## Installation
 

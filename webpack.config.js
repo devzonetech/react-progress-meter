@@ -32,10 +32,11 @@ var config = {
   resolve: {
     extensions: ['.js', '.jsx']
   },
-//   externals: {
-//     'react': 'react',
-//     'react-dom': 'react-dom'
-//   },
+  externals: {
+    'react': 'react',
+    'react-dom': 'react-dom',
+    'prop-types': 'prop-types'
+  },
   module : {
      loaders: [
             {
