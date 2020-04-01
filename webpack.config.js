@@ -21,7 +21,6 @@ var config = {
   cache: true,
   entry: {
       ReactProgressMeter: APP_DIR + '/ReactProgressMeter.js',
-      appExample: APP_DIR + '/appExample.js',
   },
   output: {
     path: BUILD_DIR,
@@ -72,4 +71,10 @@ var config = {
     ]
 };
 
-module.exports = config;
+var configExample = Object.assign({}, config);
+configExample.externals = {};
+configExample.entry = {
+    appExample: APP_DIR + '/appExample.js',
+};
+
+module.exports = [config, configExample];
